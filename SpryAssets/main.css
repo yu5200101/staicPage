@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+ *{ margin:0; padding:0;}
+ ul{ list-style:none;}
+	a{ text-decoration:none; color:white; cursor:pointer; border:none;}
+	.fir{height:202px; width:100%; background:#004564; border-bottom:1px solid white; position:relative;}
+	.fir_1{ width:1009px; height:114px;padding-top:39px; margin:0 auto;}
+	.fir_img1{ float:left;}
+	.fir_img2{ float:left; margin-top:18px; margin-left:24px;}
+	.fir_font{ float:left; margin-left:28px; margin-top:8px;}
+	.lion{ background: url(../images/lion_03.jpg); width:243px; height:194px; position:absolute; right:0; top:8px;}
+	.clear{ clear:both;}
+	.nav{ background:url(../images/navbj_15.jpg); height:39px; width:100%; padding-top:3px; }
+	.nav .nav_ul1{width:1009px; height:39px; list-style:none;  margin:0 auto;background:url(../images/nav_gd_17.jpg);}
+    .nav_ul1 li{ float:left; color:white; font-weight:bold; font-size:14px; line-height:39px;text-align:center; position:relative;}
+    #li1{ width:86px; background-color:white;}
+	#li1 a{ color:black;}
+	#li2{ width:97px;}
+	#li3{ width:92px;}
+	#li4{ width:91px;}
+	#li5{ width:92px;}
+	#li6{ width:91px;}
+	#li7{ width:92px;}
+	#li8{ width:91px;}
+	#li9{ width:92px;}
+	#li10{ width:89px;}
+	#li11{ width:95px;}
+	.change{ background:#999; cursor:pointer;}
+	.nav a:hover{display:block; color:black;}	
+	#sub_li2,#sub_li3,#sub_li4,#sub_li5,#sub_li6,#sub_li7,#sub_li8,#sub_li9,#sub_li10,#sub_li11{ width:100px; display:none; position:absolute; top:39px; list-style:none;}
+	#sub_li2 li,#sub_li3 li, #sub_li4 li, #sub_li5 li,#sub_li6 li,#sub_li7 li, #sub_li8 li, #sub_li9 li, #sub_li10 li ,#sub_li11 li{ width:140px; line-height:39px; text-align:center;  background:#004564;}
+	.main{ background:url(../images/main_bj.jpg); width:100%; height:1279px;}
+	.navb{ width:1019px; height:34px; border:1px solid white; background:#f5f5f5; margin:0 auto; }
+	.box{ width:1024px; line-height:34px; margin:0 auto; font-size:12px; float:left;}
+	.box1{  color:#f46f1a; float:left; margin-left:10px;font-size:12px;}
+	.box2{ color:#606060; float:left; margin-left:40px;font-size:12px;}
+	.box3{ color:#606060;width:350px; float:left;margin-left:48px;}
+	.box3 input{ height:21px; border:2px solid #789dad; border-radius:5px;}
+	#input1, #input2{ width:85px;}
+	#input3, #input4{ width:36px; cursor:pointer;}
+	#input3{ margin-left:8px;}
+	.navj{ background:white; width:1024px; margin:0 auto; height:1242px; margin-top:1px; position:relative;}
+	#pic1{ background:url(../images/pic0_15.jpg); width:165px; height:117px; float:left; margin-left:18px;color:white; font-size:23px; font-weight:bold;text-align:center;}
+	.close{margin-top:8px; margin-left:148px; margin-bottom:18px; cursor:pointer;}
+	.one{ width:737px; height:261px; border:1px solid #d9d9d9; margin-top:6px; margin-left:10px; margin-bottom:6px; float:left;}
+	.one_1{ width:323px; height:240px; margin-left:9px; margin-top:9px; margin-right:13px; float:left;}
+	#marquee {position:absolute;top:16px;left:20px;width:323px;height:214px;background:#333;border:1px solid #707070; overflow:hidden;}
+      #marquee ul{ width:3000px; }
+		#marquee ul li{ float:left;}
+		#marquee ul li img{display:block; height:214px; widows:323px;}
+		#marNav {position:absolute;left:230px;top:218px;}
+		#marbj{ width:75px; height:13px; background:url(../images/marbj.png);position:absolute;left:154px;top:218px; border-right:1px solid white;}
+		#marNav li {float:left;margin:0;width:22px;height:13px;background:black;border-right:1px solid #FFF;cursor:pointer;
+					line-height:13px;font-family:Arial;font-size:5px;color:#FFF;text-align:center;}
+		#marNav li.navOn {background:red;}
+	.one_bottom{ width:325px; line-height:24px; background:#e3e3e3;color:black; font-weight:bold; font-size:12px; text-align:center; float:left; margin-top:216px;}
+	.one_right,.four{float:left; }
+	.one_right{ width:392px; height:244px;margin-top:5px;}
+	.four{ width:363px; height:197px;border:1px solid #d9d9d9; background:#f8f8f8;}
+	.one_right1,.four_right1{background:url(../images/bq_15.jpg);float:left; text-align:center; font-size:14px; color:white;width:104px; line-height:28px;}	
+	.one_right1{border:1px solid #dfdfdf;border-bottom:none; }
+	.four_right1{border-right:1px solid #dfdfdf;}
+	.clear{ clear:both;}
+	.one_right2,.four_right2{ height:27px; border-bottom:1px solid #dfdfdf; background:url(../images/bq_l_17.jpg); float:left;}
+	.one_right2{ width:286px;}
+	.four_right2{ width:258px;}
+	.four_right2 .more,.one_right2 .more,.seven_right2 .more{width:42px; line-height:17px; border:1px solid #ead1d1; border-radius:2px;text-align:center; font-size:11px; margin-right:6px; float:right; background:#f6f3f3;}
+	.more_font{ float:left; margin-left:5px;color:#c37059;}
+	.sanj{ width:4px; height:7px;float:left; background:url(../images/sanj_30.png); margin-left:4px; margin-top:5px;}
+	.one_right2 .more{  margin-top:3px;}
+	.four_right2 .more{  margin-top:4px;}
+	.seven_right2 .more{ margin-top:5px;}
+	.more a{ color:#c37059; display:block;}
+	.img1{ width:363px; height:6px; float:left;}
+	.one img{margin-left:48px;}
+	.four img{margin-left:48px;}
+	.one_right3{ width:300px; height:201px;margin-top:8px; margin-left:3px;float:left;}
+	.four_right3{ width:250px; height:150px;margin-top:8px; margin-left:9px;float:left;}
+	.one_right3 ul,.four_right3 ul{ list-style:inside; }
+	.one_right3 li,.one_right4 li,.four_right3 li,.four_right4 li{font-size:12px;line-height:25px;}
+    .one_right4,.four_right4{ margin-top:8px;margin-right:8px; float:right;}
+	.one_right4{width: 65px;height:201px;}
+	.four_right4{ width:65px; height:150px;}
+	.one_right4 ul,.four_right4 ul{ list-style:none;}	   	
+	.po1,.po5{ margin-left:10px; margin-top:7px;}
+	.po2,.po6{ margin-left:9px; margin-top:7px;}
+	.po3{margin-left:10px; margin-top:9px; }
+	.po4{margin-left:9px; margin-top:9px; }
+	.two{ float:left;margin-left:10px; margin-top:6px;width: 247px;height: 255px;border: 1px solid #d9d9d9;padding: 3px;}
+	.two1{ width:247px; line-height:31px; background:#015d86; border-radius:2px; float:left;}
+	.two1_l{ color:white; font-size:14px; margin-left:8px;float:left;}
+	.two1_m{ color:white; float:left; font-size:12px; margin-left:133px;}
+	.two1_r{ float:left; width:10px; height:8px; background:url(../images/lo_30.jpg); margin-top:11px; margin-left:2px;}
+	.two2{ width:240px; height:201px; float:left; margin-left:9px; margin-top:14px;}
+	.two2 ul{ list-style:inside;}
+	.two2 li{ line-height:25px; font-size:12px;}
+	.three{ width:1004px; height:68px; background:url(../images/three_40.jpg); float:left; margin-left:10px;}
+	.five1,.five2,.five3,.five4,.five5,.five6,.five7,.five8,.five9{ width:253px; height:61px; border:1px solid #cccccc;}
+	.five1{ position:absolute; right:10px; top:350px;}
+	.five2{ position:absolute; right:10px; top:421px;}
+	.five3{ position:absolute; right:10px; top:492px;}
+	.five4{ position:absolute; right:10px; top:563px;}
+	.five5{ position:absolute; right:10px; top:634px;}
+	.five6{ position:absolute; right:10px; top:705px;}
+	.five7{ position:absolute; right:10px; top:776px;}
+	.five8{ position:absolute; right:10px; top:847px;}
+	.five9{ position:absolute; right:10px; top:918px;}
+	.pic2{ float:left; margin-left:10px; margin-top:6px;}
+	.six{ width:247px; height:232px; border:1px solid #d6d6d6; padding:3px; float:left; position:absolute; right:10px; top:991px;}
+	.six1{ width:239px; line-height:31px; background:#015d86; border-radius:2px; padding-left:8px; color:white; font-size:14px; cursor:pointer;}
+	.six2{ width:219px; height:178px; margin:0 auto; margin-top:5px;}
+	#jumpMenu1{ width:219px; height:21px; border:1px solid #7f9db9; margin-top:8px; margin-bottom:8px;}
+	.seven{ width:739px; height:188px; float:left; margin-left:10px; margin-top:7px;}
+	.seven_right1{ background:url(../images/seven_1_61.jpg); width:110px; height:23px; float:left; color:white; font-size:14px; padding-left:34px; padding-top:8px;} 
+	.seven_right2{ width:594px; height:29px; background:url(../images/seven_2_66.jpg); float:left; border:1px solid #dddddd; border-left:none;}
+	.seven_right3{ width:737px; height:155px; float:left; border:1px solid #dddddd; border-top:none;}
+	.seven_right4{ width:714px; height:134px; margin-top:11px; margin-left:12px; margin-right:11px;}
+	.seven_right4 input{ width:115px; height:23px; background:url(../images/seven_3_71.jpg); border:1px solid #015d86; cursor:pointer; margin-right:14px; margin-bottom:10px; margin-left:13px;float:left;}
+	.fin{ width:100%; height:114px; background:#004564; padding-top:22px;}
+	.fin_box{ width:378px; height:99px; margin:0 auto;}
+	.fin_box div{ line-height:24px; font-size:12px; color:white; text-align:center;}
+	.logo{ width:38px; height:45px; margin:0 auto; margin-top:5px;}
